@@ -1,3 +1,5 @@
+
+```mermaid
 erDiagram
     dim_stores ||--o{ fact_sales : "store_id"
     dim_products ||--o{ fact_sales : "product_id"
